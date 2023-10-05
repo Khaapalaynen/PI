@@ -1,0 +1,1 @@
+print('Длина фразы "Hello World" -',len("Hello World"), 'символов')
