@@ -122,7 +122,7 @@ print('Длина фразы "Hello World" -',len("Hello World"), 'символ�
 
 ```
 str = "HELLO WORLD"
-print(str.lower())
+print(str.lower()) 
 ```
 
 ### Результат
