@@ -32,7 +32,7 @@ print(x)
 ```
 
 ### Результат
-![Меню](https://github.com/Khaapalaynen/PI/blob/Te%D0%BC%D0%B0_3/pic/Lab3_1.png)
+![Меню](https://github.com/Khaapalaynen/PI/blob/Tema_3/pic/Lab3_1.png)
 
 ## Выводы
 В данном коде с помощью цикла `for` и нужных формул сделали из 1 31
