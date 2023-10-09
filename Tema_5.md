@@ -40,11 +40,90 @@ print('Наиболее частый работник - ', max)
 ```
 
 ### Результат
-![Меню](https://github.com/Khaapalaynen/PI/blob/Te%D0%BC%D0%B0_5/pic/Lab5_1.png)
+![Меню](https://github.com/Khaapalaynen/PI/blob/Tema_5/pic/Lab5_1.png)
 
 ## Выводы
 В данной задаче используем список и можнество, что найти все нужные данные
   
+
+## Самостоятельная работа №2
+### На физкультуре студенты сдавали бег, у преподавателя физкультуры есть список всех результатов, ему нужно узнать
+
+```
+data = [10.2, 14.8, 19.3, 22.7, 12.5, 33.1, 38.9, 21.6, 26.4, 17.1, 30.2, 35.7, 16.9, 27.8, 24.5, 16.3, 18.7, 31.9, 12.9, 37.4]
+dataLen = len(data)
+data = sorted(data)
+print('3 лучшие результата - ', data[0],data[1],data[2])
+print('3 худшие результата - ', data[dataLen-3],data[dataLen-2],data[dataLen-1])
+i = 0
+print("Все результаты с 10:")
+for i in range(dataLen):
+    if data[i]>10:
+        print(data[i],end=' ')
+
+```
+
+### Результат
+![Меню](https://github.com/Khaapalaynen/PI/blob/Tema_5/pic/Lab5_2.png)
+
+## Выводы
+Сортировали список данных и вычисляли данные с помощью срезов
+
+## Самостоятельная работа №3
+### Преподаватель по математике придумал странную задачку
+
+```
+one = [12, 25, 3, 48, 71]
+two = [5, 18, 40, 62, 98]
+three = [4, 21, 37, 56, 84]
+
+def Geron(a,b,c):
+    p = (a+b+c)/2
+    s = (p*(p-a)*(p-b)*(p-c))**0.5
+    return s
+
+newOne = sorted(one)
+newTwo = sorted(two)
+newThree = sorted(three)
+print("Площадь из минимальных - ", Geron(newOne[0],newTwo[0],newThree[0]))
+
+
+newOne = sorted(one, reverse=True)
+newTwo = sorted(two, reverse=True)
+newThree = sorted(three, reverse=True)
+print("Площадь из максимальных - ", Geron(newOne[0],newTwo[0],newThree[0]))
+```
+
+### Результат
+![Меню](https://github.com/Khaapalaynen/PI/blob/Tema_5/pic/Lab5_3.png)
+
+## Выводы
+С помощью сортировки списка и функции герона из прошлой задачи смогли выполнить данную задачу легко
+
+## Самостоятельная работа №4
+### 
+
+```
+
+```
+
+### Результат
+![Меню](https://github.com/Khaapalaynen/PI/blob/Tema_5/pic/Lab5_4.png)
+
+## Выводы
+
+## Самостоятельная работа №5
+### 
+
+```
+
+```
+
+### Результат
+![Меню](https://github.com/Khaapalaynen/PI/blob/Tema_5/pic/Lab5_5.png)
+
+## Выводы
+
 
 ## Общие выводы по теме
 В данной теме ознакомились с базовыми операциями на питоне. Попрактиковались с методами и различными формами вывода итога
